@@ -2,13 +2,10 @@
     "name": "movix",
     "private": true,
     "version": "0.0.0",
-    "homepage": "https://devmateusdesouza.github.io/movies-tmdb-react-vite",
     "type": "module",
     "scripts": {
         "dev": "vite",
         "build": "vite build",
-        "predeploy": "npm run build",
-        "deploy": "gh-pages -d dist",
         "preview": "vite preview"
     },
     "dependencies": {
